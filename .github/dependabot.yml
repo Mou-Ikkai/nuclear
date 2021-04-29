@@ -1,0 +1,48 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: electron-store
+    versions:
+    - 7.0.0
+    - 7.0.2
+    - 7.0.3
+  - dependency-name: electron
+    versions:
+    - 11.2.1
+    - 11.2.2
+    - 11.2.3
+    - 11.3.0
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 12.0.4
+  - dependency-name: jsdom
+    versions:
+    - 16.4.0
+    - 16.5.0
+    - 16.5.1
+    - 16.5.2
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
+  - dependency-name: styled-components
+    versions:
+    - 4.4.1
+    - 5.2.1
+  - dependency-name: react-toastify
+    versions:
+    - 7.0.1
+    - 7.0.3
+  - dependency-name: ytdl-core
+    versions:
+    - 4.4.5
+  - dependency-name: react-redux
+    versions:
+    - 7.2.2
